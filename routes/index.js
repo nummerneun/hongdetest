@@ -3,19 +3,19 @@ var router = express.Router();
 
 router.get('/', function(req, res){
   res.render('index', {
-    title: 'Home'
+    title: '主页'
   });
 });
 
 router.get('/about', function(req, res){
   res.render('about', {
-    title: 'About'
+    title: '说明'
   });
 });
 
 router.get('/contact', function(req, res){
   res.render('contact', {
-    title: 'Contact'
+    title: '联络'
   });
 });
 
