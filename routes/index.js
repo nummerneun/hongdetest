@@ -19,5 +19,11 @@ router.get('/contact', function(req, res){
   });
 });
 
+router.get('/release', function(req, res){
+  res.render('release', {
+    title: '通知'
+  });
+});
+
 module.exports = router;
 
